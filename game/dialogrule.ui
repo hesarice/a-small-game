@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialogrule</class>
+ <widget class="QDialog" name="Dialogrule">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>植此青绿小游戏</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/build-cpp_shixun-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/things/grass-windowicon..png</normaloff>:/build-cpp_shixun-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/things/grass-windowicon..png</iconset>
+  </property>
+  <widget class="QLabel" name="label6n6">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>500</width>
+     <height>500</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>500</width>
+     <height>500</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

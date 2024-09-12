@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialogranking</class>
+ <widget class="QDialog" name="Dialogranking">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>525</width>
+    <height>297</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>植此青绿小游戏</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/build-cpp_shixun-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/things/grass-windowicon..png</normaloff>:/build-cpp_shixun-Desktop_Qt_6_2_4_MinGW_64_bit-Debug/things/grass-windowicon..png</iconset>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>501</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>GenSenRounded TW M</family>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;border:none</string>
+   </property>
+   <property name="gridStyle">
+    <enum>Qt::NoPen</enum>
+   </property>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行2</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>排名</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>新建列</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>通关关卡数</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>总用时</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>无尽关卡通关数</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>排名</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>HarmonyOS Sans SC Medium</family>
+      <pointsize>11</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>用户名</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>HarmonyOS Sans SC Medium</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="0" column="2">
+    <property name="text">
+     <string>通关关卡数</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>HarmonyOS Sans SC Medium</family>
+      <pointsize>11</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+    <property name="background">
+     <brush brushstyle="NoBrush">
+      <color alpha="255">
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </brush>
+    </property>
+   </item>
+   <item row="0" column="3">
+    <property name="text">
+     <string>总用时</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>HarmonyOS Sans SC Medium</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="0" column="4">
+    <property name="text">
+     <string>无尽关卡通关数</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>HarmonyOS Sans SC Medium</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>1</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="1" column="2">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="1" column="3">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="1" column="4">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>2</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="2" column="1">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="2" column="2">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="2" column="3">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="2" column="4">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="3" column="0">
+    <property name="text">
+     <string>3</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="3" column="1">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="3" column="2">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="3" column="3">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="3" column="4">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="4" column="0">
+    <property name="text">
+     <string>4</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="4" column="1">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="4" column="2">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="4" column="3">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="4" column="4">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="5" column="0">
+    <property name="text">
+     <string>5</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="5" column="1">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="5" column="2">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="5" column="3">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="5" column="4">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="6" column="0">
+    <property name="text">
+     <string>6</string>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="6" column="1">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="6" column="2">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="6" column="3">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item row="6" column="4">
+    <property name="text">
+     <string/>
+    </property>
+    <property name="font">
+     <font>
+      <family>GenSenRounded TW B</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="labeltitle">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>9</y>
+     <width>525</width>
+     <height>85</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelbg">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>525</width>
+     <height>297</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>labelbg</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>labeltitle</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
