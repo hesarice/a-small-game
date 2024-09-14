@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 #include <memory>
-#include "../../cpp_shixun/dialogwin.h"
+#include "../dialogwin.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
